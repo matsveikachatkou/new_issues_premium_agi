@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    NIP   R-squared:                       0.325
+Model:                            OLS   Adj. R-squared:                  0.322
+Method:                 Least Squares   F-statistic:                     71.83
+Date:                Thu, 10 Aug 2023   Prob (F-statistic):           6.49e-92
+Time:                        11:46:09   Log-Likelihood:                -6642.5
+No. Observations:                1829   AIC:                         1.330e+04
+Df Residuals:                    1821   BIC:                         1.335e+04
+Df Model:                           7                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 3.2129      1.659      1.936      0.053      -0.039       6.465
+spreadToSwap          6.5676      0.974      6.746      0.000       4.660       8.476
+spreadDiscount        4.0427      1.364      2.965      0.003       1.370       6.715
+maturityTermLog      -2.1610      0.638     -3.386      0.001      -3.412      -0.910
+paymentRank           0.4008      0.209      1.917      0.055      -0.009       0.811
+MOVETrailing          3.5452      0.815      4.350      0.000       1.948       5.143
+MOVERetsTrailing      3.8915      1.092      3.562      0.000       1.750       6.033
+iboxxRetsTrailing    -2.2906      0.404     -5.666      0.000      -3.083      -1.498
+==============================================================================
+Omnibus:                      272.756   Durbin-Watson:                   1.713
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3368.209
+Skew:                           0.240   Prob(JB):                         0.00
+Kurtosis:                       9.631   Cond. No.                         29.7
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

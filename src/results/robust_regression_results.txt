@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    NIP   R-squared:                       0.325
+Model:                            OLS   Adj. R-squared:                  0.322
+Method:                 Least Squares   F-statistic:                     86.61
+Date:                Tue, 01 Aug 2023   Prob (F-statistic):           9.73e-09
+Time:                        23:41:21   Log-Likelihood:                -6642.5
+No. Observations:                1829   AIC:                         1.330e+04
+Df Residuals:                    1821   BIC:                         1.335e+04
+Df Model:                           7                                         
+Covariance Type:              cluster                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 3.2129      2.038      1.576      0.115      -0.782       7.207
+spreadToSwap          6.5676      1.412      4.650      0.000       3.799       9.336
+spreadDiscount        4.0427      0.947      4.269      0.000       2.187       5.899
+maturityTermLog      -2.1610      0.741     -2.916      0.004      -3.613      -0.709
+paymentRank           0.4008      0.208      1.930      0.054      -0.006       0.808
+MOVETrailing          3.5452      1.490      2.379      0.017       0.624       6.466
+MOVERetsTrailing      3.8915      1.109      3.508      0.000       1.717       6.066
+iboxxRetsTrailing    -2.2906      1.139     -2.011      0.044      -4.523      -0.058
+==============================================================================
+Omnibus:                      272.756   Durbin-Watson:                   1.713
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3368.209
+Skew:                           0.240   Prob(JB):                         0.00
+Kurtosis:                       9.631   Cond. No.                         29.7
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
