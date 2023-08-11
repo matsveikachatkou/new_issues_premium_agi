@@ -22,16 +22,16 @@ The project is organized as follows:
     - `new_issues_prices_bidyield_refinitive.csv`: New issues bid YTM (Refinitive).
     - `new_issues_initial_price_bb.csv`: New issues initial YTM (Bloomberg).
     - `new_issues_initial_price_refinitive.csv`: New issues initial YTM (Refinitive).
-    -
+    <br />
     - `comparable_bonds_peers_duration_iboxx_*.csv`: Comparable bonds data (iBoxx).
     - `comparable_bonds_same_iboxx_*.csv`: Comparable bonds (only same issuer) data (iBoxx).
     - `comparable_bonds_hourly_prices.csv`: Comparable bonds tick YTM (Refinitive).
     - `comparable_bonds_filtered_yield.csv`: Subset of comparable bonds bid YTM (Refinitive).
-    -
+    <br />
     - `swap_rates.csv`: Swap rates (Refinitive).
     - `iboxx_indices.csv`: Indices (iBoxx).
     - `move_index.csv`: MOVE index (Refinitive).
-    -
+    <br />
     - `nip_peers_settlement.csv`: Calculated NIP.
     - `move_index.csv`: Calculated initial spread discount.
   
