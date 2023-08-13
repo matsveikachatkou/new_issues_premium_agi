@@ -91,4 +91,4 @@ To reproduce the analysis and findings of this thesis project, follow these step
 3. For feature selection analysis, explore `feature_engineering.ipynb` in `data/preprocessed`.
 4. For multicollinearity analysis, run `multicollinearity_checker.py`. Results stored in `src/results/`.
 5. For regression analysis, run `linear_regression_panel_analysis.py`, `linear_regression_panel_analysis_rating.py`, `robust_linear_regression_panel_analysis.py` in `src/`. Results stored in `src/results/`. To run regression for different rating subgroup, change panel_filtered = panel[panel['rating'].between(8, 16)]. The assigned rating values can be found in `data_preprocessing.py`.
-6. 
+6. For ML models results, run the corresponding scripts. The metrics are printed out in th console. Results of model comparison are saved as txt files, feature importance is saved as pictures.
